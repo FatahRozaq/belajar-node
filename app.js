@@ -1,22 +1,9 @@
-const amount = 12;
+console.log("it works");
 
-if (amount > 10) {
-    for (let index = 0; index < 10; index++) {
-        console.log('large number');
-    }   
+let a = 5, b = 15;
+
+if (a > b) {
+    console.log(a);
 } else {
-    console.log('small number');
+    console.log(b);
 }
-
-switch (amount) {
-    case 10:
-        console.log('10 Hag');
-        break;
-    default:
-        console.log('Not 10 Hag');
-        break;
-}
-
-
-
-console.log("It's my first node app");
